@@ -1,29 +1,16 @@
 #solicitud de datos del usuario
-usuario = (input("Ingrese su nombre  "))
+usuario = (input("Ingrese su usuario  "))
 usuario = usuario
 
 contraseña = int(input("Ingrese su contraseña  "))
 contraseña = contraseña
 
-saldo = None
+saldo = 0
 
-#validacion de accion que quiere hacer
-accion = (input("menu : consultarsaldo, depostardinero, retirardinero  "))
+#variables de movimiento
+historial1 = "Sin movimiento"
+historial2 = "Sin movimiento"
+historial3 = "Sin movimiento"
 
-if accion == "consultarSaldo":
-    print("saldo")
-elif accion == "depostardinero":
-    ingreso = int(input("Ingrese la cantidad  "))
-    saldo = ingreso
-    print("saldo")
-    
-
-
-
-
-
-
-
-
-
-
+#variable del control del menun
+opcion = 0
