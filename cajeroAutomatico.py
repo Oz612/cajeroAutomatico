@@ -48,7 +48,7 @@ historial3 = "Sin movimiento"
 opcion = 0
 
 while opcion != 6:
-    print("\n MENU ----CAJERO AUTOMATICO OZLAURED----")
+    print("\n ----MENU CAJERO AUTOMATICO OZLAURED----")
     print("1. Consultar saldo")
     print("2. Depositar dinero")
     print("3. Retirar dinero")
@@ -108,7 +108,7 @@ while opcion != 6:
         print( historial3 )
     
     elif opcion == 6:
-        print("Gracias")
+        print("Gracias por usar los servicios de OZLAURED. ¡Hasta luego!")
     
     else:
         print("Opcion no valida.")        
